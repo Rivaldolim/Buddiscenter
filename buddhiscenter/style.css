@@ -1,0 +1,148 @@
+/* Reset & Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+  padding: 0 20px;
+}
+
+/* Header & Navigation */
+header {
+  background: linear-gradient(to right, #ffe259, #ffa751);
+  padding: 40px 0;
+  text-align: center;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #fff;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+nav a {
+  margin: 0 14px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  padding: 8px 14px;
+  border-radius: 8px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  color: #222;
+}
+
+/* Section Titles */
+section h2 {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #444;
+  border-bottom: 2px solid #ffc107;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+/* Paragraphs */
+section p {
+  margin-bottom: 15px;
+  font-size: 1.05em;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* General Images */
+img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+/* Kegiatan & Fasilitas */
+.kegiatan-item,
+.fasilitas-item {
+  background: #fff;
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 14px;
+  margin-bottom: 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.kegiatan-item:hover,
+.fasilitas-item:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.kegiatan-item h3,
+.fasilitas-item h3 {
+  color: #ff5722;
+  margin-bottom: 10px;
+}
+
+/* Artikel Section */
+#artikel ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+#artikel li {
+  margin-bottom: 10px;
+  font-size: 1.05em;
+}
+
+#artikel a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#artikel a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Map Styling */
+.map-container {
+  margin-top: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer (Optional if you add one) */
+footer {
+  margin-top: 60px;
+  padding: 20px 0;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  border-radius: 20px 20px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+    text-align: center;
+  }
+
+  section h2 {
+    font-size: 1.5em;
+  }
+}
